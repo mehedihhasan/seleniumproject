@@ -1,9 +1,11 @@
 package com.orangehrmlive;
 
-public class BaseTest {
+public abstract class BasePage {
     public String applicationUrl = "https://opensource-demo.orangehrmlive.com/";
-    public String username = "Admin";
+    public String userName = "Admin";
     public String password = "admin123";
+
+    public abstract String getPageTitle();
 
 
 }
